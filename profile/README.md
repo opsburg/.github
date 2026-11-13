@@ -2,13 +2,26 @@
 
 # Opsburg
 
-**Build your flying city. Run real infrastructure.**
+**When the giants stumble, your city keeps flying.**
 
-Opsburg is a steampunk city builder for DevOps, SRE and platform engineers. Your city floats in the clouds, and every
-piece of it is backed by a piece of your real stack: place a building and a service is created, launch an airship and a
-version is built and deployed, weather a storm and an incident gets fixed.
+Your company's work, done by people and by AI agents, now runs on a handful of US clouds and AI models. One hiccup on
+their side and everything stops: the team waits for someone else's status page, every agent stalls at once, and nobody
+inside the company can fix it.
+
+Opsburg is a city builder for the teams who keep a company running. Your flying city is your real stack, and every
+building is wired to the provider it draws power from. The game is making sure no single giant can ground it.
 
 🌐 **Website:** [opsburg.github.io](https://opsburg.github.io/)
+
+## Power
+
+| In the game | In the real world |
+|---|---|
+| Foreign power plant | A US cloud or AI provider |
+| Blackout | A provider outage: people and agents stop |
+| Own engine | Infrastructure you control: your servers, a European cloud, a self-hosted open model |
+| Reserve line | Failover to a second source |
+| Rehearsed blackout | Cutting a dependency on purpose to see what keeps flying |
 
 ## The city
 
@@ -22,15 +35,16 @@ version is built and deployed, weather a storm and an incident gets fixed.
 | Observatory | Monitoring |
 | Lightning Spire | Firewall |
 | Airship | Deploy |
+| Automaton | AI agent |
 | Storm | Incident |
 | Pressure | Load |
 | Coal | Cost |
 
 ## Under the brass
 
-- **Your Git and your pipelines:** GitHub, GitLab and Azure DevOps
-- **GitOps deploys:** Argo CD on your Kubernetes
-- **Automatons:** AI agents that read logs, propose fixes and ask before they touch production
+- **No single source:** GitHub, GitLab and Azure DevOps for code; your Kubernetes through Argo CD for deploys
+- **Automatons on more than one model:** AI agents that read logs and propose fixes, built to switch to another provider or to a model you host
+- **Self-hostable:** the whole city runs on servers you own
 
 ## Repositories
 
@@ -46,5 +60,6 @@ version is built and deployed, weather a storm and an incident gets fixed.
 | [telemetry-be](https://github.com/opsburg/telemetry-be) | Collects the anonymous usage ping of self-hosted installations |
 | [backoffice-be](https://github.com/opsburg/backoffice-be) · [backoffice-fe](https://github.com/opsburg/backoffice-fe) | The internal backoffice: users, projects, packages and telemetry |
 | [telemetry-infrastructure](https://github.com/opsburg/telemetry-infrastructure) · [backoffice-infrastructure](https://github.com/opsburg/backoffice-infrastructure) | OpenTofu for the telemetry and backoffice containers |
+| [infrastructure](https://github.com/opsburg/infrastructure) | OpenTofu for the console, Redis and Metabase |
 
 > Opsburg is in the workshop and not playable yet.
