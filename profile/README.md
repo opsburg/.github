@@ -4,7 +4,7 @@ Opsburg builds and ships your apps and AI agents, from the repository to your Ku
 into a game: your stack is a flying steampunk city, every service is a building, every deploy an airship, every incident
 a storm. Your team keeps the city flying, and your cloud stays up.
 
-🌐 **Website:** [opsburg.github.io](https://opsburg.github.io/)
+🌐 **Website:** [opsburg.dev](https://opsburg.dev/)
 
 ## The platform
 
@@ -47,7 +47,7 @@ a storm. Your team keeps the city flying, and your cloud stays up.
 | [github-action](https://github.com/opsburg/github-action) | GitHub Action: upload a frontend bundle or register a Docker image |
 | [azure-devops-extension](https://github.com/opsburg/azure-devops-extension) | The same two steps as Azure Pipelines tasks |
 | [templates](https://github.com/opsburg/templates) | The starter templates for services and frontends |
-| [design-system](https://github.com/opsburg/design-system) | The React component library: `@opsburg/design-system` · [Storybook](https://opsburg.github.io/design-system/) |
+| [design-system](https://github.com/opsburg/design-system) | The React component library: `@opsburg/design-system` · [Storybook](https://opsburg.dev/design-system/) |
 | [telemetry-be](https://github.com/opsburg/telemetry-be) | Collects the anonymous usage ping of self-hosted installations |
 | [backoffice-be](https://github.com/opsburg/backoffice-be) · [backoffice-fe](https://github.com/opsburg/backoffice-fe) | The internal backoffice: users, projects, packages and telemetry |
 | [telemetry-infrastructure](https://github.com/opsburg/telemetry-infrastructure) · [backoffice-infrastructure](https://github.com/opsburg/backoffice-infrastructure) | OpenTofu for the telemetry and backoffice containers |
