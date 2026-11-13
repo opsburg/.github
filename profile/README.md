@@ -2,26 +2,27 @@
 
 # Opsburg
 
-**When the giants stumble, your city keeps flying.**
+**Keep your cloud up and running. Play it like a city.**
 
-Your company's work, done by people and by AI agents, now runs on a handful of US clouds and AI models. One hiccup on
-their side and everything stops: the team waits for someone else's status page, every agent stalls at once, and nobody
-inside the company can fix it.
-
-Opsburg is a city builder for the teams who keep a company running. Your flying city is your real stack, and every
-building is wired to the provider it draws power from. The game is making sure no single giant can ground it.
+Opsburg builds and ships your apps and AI agents, from the repository to your Kubernetes. Then it turns running them
+into a game: your stack is a flying steampunk city, every service is a building, every deploy an airship, every incident
+a storm. Your team keeps the city flying, and your cloud stays up.
 
 🌐 **Website:** [opsburg.github.io](https://opsburg.github.io/)
 
-## Power
+## The platform
 
-| In the game | In the real world |
-|---|---|
-| Foreign power plant | A US cloud or AI provider |
-| Blackout | A provider outage: people and agents stop |
-| Own engine | Infrastructure you control: your servers, a European cloud, a self-hosted open model |
-| Reserve line | Failover to a second source |
-| Rehearsed blackout | Cutting a dependency on purpose to see what keeps flying |
+- **Build:** apps and AI agents from templates, with repositories on GitHub, GitLab or Azure DevOps and CI included
+- **Ship:** a tag builds and registers the version; one click deploys it through GitOps and Argo CD, with rollback
+- **Run:** live state, logs and incidents; AI agents read the logs, propose the fix and ask before touching production
+- **Your rules:** your single sign-on, roles and AI models; self-hosted, with an MCP server for AI clients
+
+## The game
+
+- **Uptime streaks:** every day the city stays in the air adds to the streak
+- **Missions:** real chores turned into missions, from patching the vaults to retiring old airships
+- **Storm drills:** rehearse an incident on purpose and see who repairs it first
+- **A city that grows:** every service, environment and team adds a building
 
 ## The city
 
@@ -31,7 +32,7 @@ building is wired to the provider it draws power from. The game is making sure n
 | Boiler House | Compute node |
 | Factory | Service |
 | Vault | Database |
-| Telegraph | Message queue |
+| Telegraph | Message queue and logs |
 | Observatory | Monitoring |
 | Lightning Spire | Firewall |
 | Airship | Deploy |
@@ -39,12 +40,6 @@ building is wired to the provider it draws power from. The game is making sure n
 | Storm | Incident |
 | Pressure | Load |
 | Coal | Cost |
-
-## Under the brass
-
-- **No single source:** GitHub, GitLab and Azure DevOps for code; your Kubernetes through Argo CD for deploys
-- **Automatons on more than one model:** AI agents that read logs and propose fixes, built to switch to another provider or to a model you host
-- **Self-hostable:** the whole city runs on servers you own
 
 ## Repositories
 
