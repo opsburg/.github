@@ -1,4 +1,4 @@
-![Opsburg](banner.svg)
+<p align="center"><img src="logo.png" alt="Opsburg" width="160"></p>
 
 # Opsburg
 
@@ -40,5 +40,6 @@ version is built and deployed, weather a storm and an incident gets fixed.
 | [opsburg.github.io](https://github.com/opsburg/opsburg.github.io) | The website |
 | [pipeline-models](https://github.com/opsburg/pipeline-models) | The CI pipelines copied into every repository a city creates |
 | [templates](https://github.com/opsburg/templates) | The starter templates for services and frontends |
+| [design-system](https://github.com/opsburg/design-system) | The React component library: `@opsburg/design-system` |
 
 > Opsburg is in the workshop and not playable yet.
