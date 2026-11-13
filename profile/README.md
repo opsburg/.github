@@ -1,8 +1,4 @@
-<p align="center"><img src="logo.png" alt="Opsburg" width="160"></p>
-
-# Opsburg
-
-**Keep your cloud up and running. Play it like a city.**
+<p align="center"><img src="banner.jpg" alt="Opsburg: a steampunk city flying above the clouds. Keep your cloud up and running. Play it like a city." width="100%"></p>
 
 Opsburg builds and ships your apps and AI agents, from the repository to your Kubernetes. Then it turns running them
 into a game: your stack is a flying steampunk city, every service is a building, every deploy an airship, every incident
